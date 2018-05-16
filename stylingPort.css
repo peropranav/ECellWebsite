@@ -159,7 +159,7 @@ height: 75%;
 /* Footer left */
 
 .footer-distributed .footer-left{
-    width: 40%;
+    width: 30%;
 }
 
 /* The company logo */
@@ -199,7 +199,7 @@ height: 75%;
 /* Footer Center */
 
 .footer-distributed .footer-center{
-    width: 35%;
+    width: 45%;
 }
 
 .footer-distributed .footer-center i{
@@ -297,11 +297,14 @@ height: 75%;
         display: block;
         width: 100%;
         margin-bottom: 40px;
-        text-align: center;
+        font-size: 10px;
     }
 
+
+
     .footer-distributed .footer-center i{
-        margin-left: 0;
+    
+
     }
 
 }

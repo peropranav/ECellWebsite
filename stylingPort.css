@@ -12,6 +12,12 @@ url("LemonMilklight.otf") format("opentype"),
 
 }    
 
+
+.logoImg
+{
+    height: 50px;
+    width: 100px;
+}
 .me{
     height: 300px;
     width:300px;

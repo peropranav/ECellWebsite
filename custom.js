@@ -1,38 +1,25 @@
 
 $("#upcomingEventBtn").click(function () {
-    $("#up1").slideDown();
     $(".upTitle").show();
 
-    $("#prev1").slideUp();
-    $("#prev2").slideUp();
-    $("#prev3").slideUp();
-    $("#prev4").slideUp();
-    $("#prev5").slideUp();
+    $(".prevImg").slideUp();
     $(".prevTitle").hide();
-EventScroll
 
 
 });
 
 $("#previousEventBtn").click(function () {
     $("#up1").slideUp();
-    $("#prev1").slideDown();
-    $("#prev2").slideDown();
-    $("#prev3").slideDown();
-    $("#prev4").slideDown();
-    $("#prev5").slideDown();
+    $(".prevImg").slideDown();
     $(".prevTitle").show();
     $(".upTitle").hide();
 
 
 });
 $("#allEventBtn").click(function () {
-    $("#up1").slideDown();
-    $("#prev1").slideDown();
-    $("#prev2").slideDown();
-    $("#prev3").slideDown();
-    $("#prev4").slideDown();
-    $("#prev5").slideDown();
+
+        $(".prevImg").slideDown();
+    
     $(".prevTitle").show();
     $(".upTitle").show();
 
